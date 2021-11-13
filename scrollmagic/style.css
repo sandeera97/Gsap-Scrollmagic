@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+.animation {
+  height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.car {
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
